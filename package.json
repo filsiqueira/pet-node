@@ -1,0 +1,30 @@
+{
+  "name": "pet-node",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido no curso de node da B7 Web",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "nodemon -e ts,json,mustache src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filsiqueira/pet-node.git"
+  },
+  "author": "Filipe Siqueira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/filsiqueira/pet-node/issues"
+  },
+  "homepage": "https://github.com/filsiqueira/pet-node#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mustache": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/mustache-express": "^1.2.1",
+    "@types/node": "^17.0.21"
+  }
+}
